@@ -1,0 +1,50 @@
+# Created by https://www.gitignore.io/api/vim
+
+### Vim ###
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+
+# End of https://www.gitignore.io/api/vim
+# -----------------------------------------
+# Cloned by https://github.com/Sylhare/Type-on-Strap
+
+# Idea files
+.idea/*
+
+# Mac files
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+*.manifest
+*.spec
+
+# Jekyll dev or build files
+_site/*
+_development_tool/*
+.sass-cache/*
+*.css.map
+*.scssc
+
+# Theme Gem files
+Gemfile.lock
+*.gem
+.gems
+jekyll-theme-type-on-strap.gemspec
+node_modules/*
+
+# End of https://github.com/Sylhare/Type-on-Strap
