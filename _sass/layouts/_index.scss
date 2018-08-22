@@ -1,3 +1,16 @@
+// Alice1017 added:
+
+.particles {
+    display: inline-block;
+    width: 100%;
+    height: 480px !important;
+    background: $header-desc-background-color;
+    overflow: hidden;
+    @media screen and (max-width: 850px) {
+        height: 300px !important;
+    }
+}
+
 // Header text feature
 .call-out {
     @extend %padding-medium;
@@ -13,8 +26,8 @@
     /* --- Responsive --- */
     @media screen and (max-width: 850px) {
         background-size: 100% auto;
-    } 
-    
+    }
+
     //For white images
     p,
     a,
