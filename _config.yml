@@ -1,14 +1,14 @@
 # SITE CONFIGURATION
 baseurl: ""
 url: "http://alice1017.github.io"
-title: とある趣味人の独白 # site's title
-description: "とある趣味人が自分の考えをアウトプットする場所" # used by search engines
+title: ある趣味人の独白 # site's title
+description: "ある趣味人が自分の考えをアウトプットする場所" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: とある趣味人の独白 # blog's title
+  title: ある趣味人の独白 # blog's title
   avatar: assets/img/alice1017.jpg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
