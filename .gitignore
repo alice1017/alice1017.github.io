@@ -46,5 +46,7 @@ Gemfile.lock
 .gems
 jekyll-theme-type-on-strap.gemspec
 node_modules/*
+.jekyll-metadata
+
 
 # End of https://github.com/Sylhare/Type-on-Strap
