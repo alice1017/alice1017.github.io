@@ -83,8 +83,34 @@
                 connectParticles: true,
                 sizeVariations: 3,
                 speed: 1,
-                maxParticles: 200,
+                maxParticles: 150,
                 minDistance: 150,
+                responsive: [
+                    {
+                        breakpoint: 1100,
+                        options: {
+                            maxParticles: 130,
+                        }
+                    },
+                    {
+                        breakpoint: 960,
+                        options: {
+                            maxParticles: 110,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        options: {
+                            maxParticles: 100,
+                        }
+                    },
+                    {
+                        breakpoint: 425,
+                        options: {
+                            maxParticles: 50,
+                        }
+                    }
+                ]
             })
         }
     </script>
