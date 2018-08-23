@@ -1,31 +1,23 @@
-// Alice1017 added:
-
-.particles {
-    display: inline-block;
-    width: 100%;
-    height: 480px !important;
-    background: $header-desc-background-color;
-    overflow: hidden;
-    @media screen and (max-width: 850px) {
-        height: 300px !important;
-    }
-}
-
 // Header text feature
 .call-out {
     @extend %padding-medium;
     display: inline-block;
     width: 100%;
-    height: 100%;
     font-size: 1.2em;
     text-align: center;
     color: $header-desc-text-color;
-    background: $header-desc-background-color no-repeat;
-    background-size: $feature-image-size;
+    // height: 100%;
+    // background: $header-desc-background-color no-repeat;
+    // background-size: $feature-image-size;
 
-    /* --- Responsive --- */
+    // Alice1017 added
+    height: 480px;
+    background: url(https://res.cloudinary.com/dojpz83hh/image/upload/v1534985560/Blog%20Post%20Images/cat-walking.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+
     @media screen and (max-width: 850px) {
-        background-size: 100% auto;
+        height: 300px;
     }
 
     //For white images
