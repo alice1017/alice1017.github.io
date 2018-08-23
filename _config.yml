@@ -9,7 +9,7 @@ description: "ある趣味人が自分の考えをアウトプットする場所
 theme_settings:
   # Meta
   title: ある趣味人の独白 # blog's title
-  avatar: assets/img/alice1017.jpg
+  avatar: assets/img/avator.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 
