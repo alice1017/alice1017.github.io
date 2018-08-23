@@ -17,6 +17,11 @@ article {
     .footnotes {
         font-size: 0.9em;
     }
+    p {
+        &:before {
+            content: "　";
+        }
+    }
 }
 
 footer {
