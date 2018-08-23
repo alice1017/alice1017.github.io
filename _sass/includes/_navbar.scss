@@ -31,6 +31,7 @@
     }
 
     .site-title {
+        width: 10em;
         float: left;
         font-weight: bold;
         font-size: 1.5em;
@@ -129,7 +130,7 @@
             margin: 0;
             opacity: 0;
             padding: 0;
-            
+
             /* fade out, then shrink */
             transition: opacity .25s,
                         font-size .5s .25s,
