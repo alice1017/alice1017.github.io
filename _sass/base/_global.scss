@@ -76,6 +76,17 @@ footer p:last-child {
     margin-bottom: 0;
 }
 
+b,
+strong {
+    font-weight: bold;
+    color: $strong-color;
+}
+
+em {
+    background: $em-color;
+    font-style: normal;
+}
+
 table {
     table-layout: fixed;
     width: 100%;
