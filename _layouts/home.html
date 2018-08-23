@@ -18,7 +18,11 @@ layout: default
     <div class="post-teaser">
       {% if post.thumbnail %} 
       <div class="post-img">
-         <img src="{{ site.baseurl }}/{{ post.thumbnail }}">
+      {% if post.img-external %}
+        <img src="{{ post.thumbnail }}">
+      {% else %}
+        <img src="{{ site.baseurl }}/{{ post.thumbnail }}">
+      {% endif %}
       </div>
       {% endif %}
       <span>
