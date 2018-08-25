@@ -9,7 +9,7 @@
            "strict": true
        },
        "no-doubled-joshi": {
-          "allow": ["も", "や"]
+          "allow": ["も", "や", "に"]
        },
        "no-double-negative-ja": true,
        "no-hankaku-kana": true,
