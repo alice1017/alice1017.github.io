@@ -8,6 +8,7 @@ const shell = require('gulp-shell');
 const less = require('gulp-less');
 const cssmin = require('gulp-cssmin')
 const replace = require('gulp-replace');
+const textlint = require('gulp-textlint');
 
 gulp.task('js', function () {
     gutil.log('... Minifying js');
@@ -58,6 +59,15 @@ gulp.task("serve", function () {
     ])
 });
 
-gulp.task('default', ['js', 'img'], function () {
+gulp.task("lint", function() {
+    gutil.log('... Textlint launching');
+    return gulp.src([
+        "_posts/*.md",
+        "!_posts/2018-08-23-about-this-blog.md",
+        "_drafts/*.md"
+    ]).pipe(textlint());
+});
+
+gulp.task('default', ['js', 'img', 'lint'], function () {
     return gutil.log('... Gulp is running!');
 });
