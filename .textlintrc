@@ -9,14 +9,13 @@
            "strict": true
        },
        "no-doubled-joshi": {
-          "allow": ["も", "や", "に"]
+          "allow": ["も", "や", "に", "が", "か"]
        },
        "no-double-negative-ja": true,
        "no-hankaku-kana": true,
        "no-mixed-zenkaku-and-hankaku-alphabet": true,
        "no-dropping-the-ra": true,
        "ja-no-mixed-period": true,
-       "prefer-tari-tari": true,
        "ja-unnatural-alphabet": true,
     }
 }
