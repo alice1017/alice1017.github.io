@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 「課題の分離」をすると<br>コミュニケーションが楽になる
-tags: [哲学, コミュニケーション]
+tags: [哲学, コミュニケーション, アドラー]
 excerpt_separator: <!--more-->
 ---
 
